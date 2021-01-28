@@ -25,7 +25,7 @@ py_install("matplotlib", envname = my_env)
 
 #Specifiy which environment you want to use
 
-use_condaenv(my_env)
+use_condaenv(condaenv = 'r-reticulate-thomas-env', required = TRUE)
 conda_version()
 conda_list()
 
