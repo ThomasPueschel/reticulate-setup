@@ -7,7 +7,7 @@ library(magrittr)
 library(plotly)
 library(data.table)
 
-# Setup
+# Check Setup
 conda_list()
 use_condaenv("anaconda3")
 py_available()
@@ -30,7 +30,7 @@ conda_version()
 conda_list()
 
 
-# Setup is now complete
+# Setup is now ready
 
 #Create python objects as R
 numpy <- import("numpy")
